@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rohit Rathore - Full Stack Developer Portfolio</title>
+
+    <!-- swiper css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+    <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- header design -->
+    <header class="header">
+        <a href="#" class="logo">Rohit.</a>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="bx bx-moon" id="darkMode-icon"></div>
+
+        <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
+
+    <!-- home section design -->
+    <section class="home" id="home">
+    <div class="home-content">
+        
+        <h1>Rohit Rathore</h1>
+        <p>
+            Full-Stack Developer skilled in Java, JavaScript, TypeScript, MERN, Next.js, and AWS, 
+            with hands-on experience building and deploying scalable, cloud-ready applications.
+        </p>
+        <p>Strong foundation in DSA, DBMS, and Operating Systems, backed by practical project work 
+        in AI-integrated platforms and microservices. Passionate about creating high-performance, 
+        user-focused solutions.</p>
+
+        <div class="social-media">
+            <a href="https://github.com/rohitrathore45" target="_blank"><i class='bx bxl-github'></i></a>
+            <a href="https://linkedin.com/in/rohit-rathore" target="_blank"><i class='bx bxl-linkedin'></i></a>
+            <a href="mailto:rohitjeevanrathore@gmail.com"><i class='bx bx-envelope'></i></a>
+            <a href="tel:+916261585656"><i class='bx bx-phone'></i></a>
+        </div>
+
+        <a href="assets/Rohit_Resume.pdf" download class="btn">Download CV</a>
+    </div>
+
+        <div class="profession-container">
+            <div class="profession-box">
+                <div class="profession" style="--i:0;">
+                    <i class='bx bx-code-alt'></i>
+                    <h3>Full Stack Developer</h3>
+                </div>
+                <div class="profession" style="--i:1;">
+                    <i class='bx bx-server'></i>
+                    <h3>Backend Developer</h3>
+                </div>
+                <div class="profession" style="--i:2;">
+                    <i class='bx bx-mobile-alt'></i>
+                    <h3>Frontend Developer</h3>
+                </div>
+                <div class="profession" style="--i:3;">
+                    <i class='bx bx-cloud'></i>
+                    <h3>Problem Solver</h3>
+                </div>
+
+                <div class="circle"></div>
+            </div>
+
+            <div class="overlay"></div>
+        </div>
+    </section>
+
+    <!-- about section design -->
+    <section class="about" id="about">
+        
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>
+                Hi there! I'm Rohit Rathore, a Full Stack Developer 
+                with expertise in modern web technologies and cloud solutions.
+            </h3>
+            <p>
+                I'm currently pursuing my Bachelor of Engineering in Information Science & Technology 
+                at Sir M. Visvesvaraya Institute of Technology with a CGPA of 8.1. My journey in 
+                software development has led me to master various technologies including Java, JavaScript, 
+                TypeScript, and the MERN stack.
+            </p>
+            <p>
+                I specialize in building scalable, cloud-ready applications with a strong foundation in 
+                Data Structures and Algorithms, Database Management Systems, and Operating Systems. 
+                I'm passionate about creating innovative solutions that solve real-world problems and 
+                deliver exceptional user experiences.
+            </p>
+            <a href="#portfolio" class="btn">View My Work</a>
+        </div>
+    </section>
+
+    <!-- services section design -->
+    <section class="services" id="services">
+        <h2 class="heading">My <span>Services</span></h2>
+
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Full Stack Development</h3>
+                <p>Building end-to-end web applications using MERN stack, Next.js, and TypeScript with 
+                   scalable architecture and modern development practices.</p>
+                <a href="#contact" class="btn">Learn More</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bx-cloud'></i>
+                <h3>Cloud & DevOps</h3>
+                <p>Deploying applications on AWS with Docker containerization, implementing CI/CD pipelines, 
+                   and ensuring scalable cloud infrastructure.</p>
+                <a href="#contact" class="btn">Learn More</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bx-mobile-alt'></i>
+                <h3>Responsive Web Design</h3>
+                <p>Creating beautiful, responsive user interfaces with React.js, TailwindCSS, and modern 
+                   design principles for optimal user experience.</p>
+                <a href="#contact" class="btn">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- portfolio section design -->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Projects</span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="images/portfolio1.png" alt="Developer Hub">
+
+                <div class="portfolio-layer">
+                    <h4>Developer Hub</h4>
+                    <p>A developer networking platform built with MERN + Redux featuring real-time connections and secure authentication.</p>
+                    <a href="https://developers-hub-pzqx.vercel.app" target="_blank"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="images/portfolio2.png" alt="Car Rental App">
+
+                <div class="portfolio-layer">
+                    <h4>Car Rental Web App</h4>
+                    <p>Full-stack car rental application with secure authentication, dynamic listings, and booking system using MERN stack.</p>
+                    <a href="https://rental-car-app-rho.vercel.app" target="_blank"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="images/portfolio3.png" alt="Fitness AI Coach">
+
+                <div class="portfolio-layer">
+                    <h4>Fitness AI Coach</h4>
+                    <p>AI-powered fitness platform with personalized recommendations, voice interaction, and real-time coaching using Next.js and Gemini AI.</p>
+                    <a href="https://fitness-ai-mu.vercel.app" target="_blank"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- testimonial design -->
+    <div class="testimonial-container">
+        <h2 class="heading">Technical <span>Skills</span></h2>
+
+        <div class="testimonial-wrapper">
+            <div class="testimonial-box mySwiper">
+                <div class="testimonial-content swiper-wrapper">
+                    <div class="testimonial-slide swiper-slide">
+                        <i class='bx bx-code-alt' style="font-size: 6rem; color: var(--main-color); margin-bottom: 2rem;"></i>
+                        <h3>Frontend Technologies</h3>
+                        <p>React.js, Next.js, JavaScript, TypeScript, TailwindCSS, HTML5, CSS3. 
+                           Experienced in building responsive, interactive user interfaces with modern 
+                           frameworks and styling libraries.</p>
+                    </div>
+                    <div class="testimonial-slide swiper-slide">
+                        <i class='bx bx-server' style="font-size: 6rem; color: var(--main-color); margin-bottom: 2rem;"></i>
+                        <h3>Backend & Database</h3>
+                        <p>Node.js, Express.js, Java, MongoDB, MySQL. Proficient in building scalable 
+                           backend services, RESTful APIs, and database design with both SQL and NoSQL 
+                           databases.</p>
+                    </div>
+                    <div class="testimonial-slide swiper-slide">
+                        <i class='bx bx-cloud' style="font-size: 6rem; color: var(--main-color); margin-bottom: 2rem;"></i>
+                        <h3>Cloud & DevOps</h3>
+                        <p>AWS, Docker, Git, GitHub, Vercel. Experienced in cloud deployment, 
+                           containerization, version control, and implementing CI/CD pipelines for 
+                           efficient development workflows.</p>
+                    </div>
+                </div>
+
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- contact section design -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+
+        <form action="#" method="POST">
+            <div class="input-box">
+                <input type="text" name="name" placeholder="Full Name" required>
+                <input type="email" name="email" placeholder="Email Address" required>
+            </div>
+            <div class="input-box">
+                <input type="tel" name="phone" placeholder="Mobile Number">
+                <input type="text" name="subject" placeholder="Email Subject" required>
+            </div>
+            <textarea name="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+
+        <div class="contact-info">
+            <div class="contact-detail">
+                <i class='bx bx-phone'></i>
+                <span>+91 6261585656</span>
+            </div>
+            <div class="contact-detail">
+                <i class='bx bx-envelope'></i>
+                <span>rohitjeevanrathore@gmail.com</span>
+            </div>
+            <div class="contact-detail">
+                <i class='bx bx-map'></i>
+                <span>Bangalore, Karnataka, India</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer design -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2024 Rohit Rathore | All Rights Reserved.</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- swiper js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!-- custom js -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
